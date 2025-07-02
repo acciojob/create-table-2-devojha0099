@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	text-align:center;
+	background-color:background: #f2e6e6;
+	background: radial-gradient(circle, rgba(242, 230, 230, 1) 43%, rgba(245, 228, 240, 1) 100%);
+}
+
+table {
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid #000;
+        }
+        input[type="button"] {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #e82127;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            transition: 0.3s ease;
+        }
+        input[type="button"]:hover {
+            background-color: #c61c22;
+        }
+
+
