@@ -1,2 +1,13 @@
+#myTable {
+  border-collapse: collapse;  /* Removes spacing between borders */
+  margin-top: 20px;           /* Adds space above the table */
+  margin-bottom: 20px;        /* Optional: space below */
+}
+
+#myTable td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
 
 
